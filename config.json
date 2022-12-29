@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/@ixon-cdk/core/config/schema.json",
+  "prefix": "pct",
+  "components": {
+    "test": {
+      "runner": {
+        "build": {
+          "builder": "@ixon-cdk/vue-builder:browser",
+          "input": "test.vue"
+        }
+      }
+    },
+    "svelte-test": {
+      "runner": {
+        "build": {
+          "builder": "@ixon-cdk/svelte-builder:browser",
+          "input": "svelte-test.svelte"
+        }
+      }
+    }
+  }
+}

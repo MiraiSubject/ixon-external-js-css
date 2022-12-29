@@ -1,0 +1,31 @@
+{
+  "name": "ixon-custom-component-workspace",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/@ixon-cdk/runner build",
+    "deploy": "node node_modules/@ixon-cdk/runner deploy",
+    "generate": "node node_modules/@ixon-cdk/runner generate",
+    "login": "node node_modules/@ixon-cdk/runner login",
+    "logout": "node node_modules/@ixon-cdk/runner logout",
+    "publish": "node node_modules/@ixon-cdk/runner publish",
+    "simulate": "node node_modules/@ixon-cdk/runner simulate"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ixon-cdk/core": "^1.1.0",
+    "@ixon-cdk/runner": "^1.1.0",
+    "@ixon-cdk/simulator": "^1.1.0",
+    "@ixon-cdk/svelte-builder": "^1.1.0",
+    "@ixon-cdk/templates": "^1.1.0",
+    "@ixon-cdk/vue-builder": "^1.1.0"
+  },
+  "packageManager": "yarn@1.22.19",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "sveltestrap": "^5.10.0"
+  }
+}
